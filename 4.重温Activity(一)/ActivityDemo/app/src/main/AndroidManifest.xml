@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.bws.activitydemo"
+    >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        >
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".LifecyActivity"/>
+
+        <activity
+            android:name=".launch.A1"
+            android:launchMode="standard" />
+        <activity
+            android:name=".launch.B1"
+            android:launchMode="standard" />
+        <activity
+            android:name=".launch.B2"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".launch.C1"
+            android:launchMode="standard" />
+        <activity
+            android:name=".launch.C2"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="com.lxb.activity.singletask" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".launch.C3"
+            android:launchMode="standard" />
+        <activity
+            android:name=".launch.D1"
+            android:launchMode="standard" />
+        <activity
+            android:name=".launch.D2"
+            android:launchMode="singleInstance" >
+            <intent-filter>
+                <action android:name="com.lxb.activity.singleinstance" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".launch.D3"
+            android:launchMode="standard" />
+    </application>
+
+</manifest>
