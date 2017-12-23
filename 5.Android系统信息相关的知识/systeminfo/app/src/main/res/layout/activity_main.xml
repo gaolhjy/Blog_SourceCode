@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/btn_system"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转到系统信息界面"
+        />
+
+    <Button
+        android:id="@+id/btn_pm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转到应用的包管理界面"
+        />
+
+    <Button
+        android:id="@+id/btn_am"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转到应用的活动管理界面"
+        />
+
+</LinearLayout>
