@@ -18,3 +18,5 @@ CSDN中资料下载很多都需要会员或者积分,导致很多朋友都无法
 
 5.[Android系统信息相关的知识 ](http://blog.csdn.net/gaolh89/article/details/78828134)
 
+6.[Android序列化Serializable和Parcelable的理解和区别](http://blog.csdn.net/gaolh89/article/details/78876307)
+
