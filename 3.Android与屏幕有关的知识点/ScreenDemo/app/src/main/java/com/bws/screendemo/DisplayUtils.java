@@ -102,12 +102,6 @@ public class DisplayUtils {
 
 
     /**
-     * 获得状态栏的高度
-     * 比较常见的两种方式是:一是通过系统尺寸资源获取,二是通过反射获取
-     * @param context
-     * @return
-     */
-    /**
      * 获取导航栏高度
      * @param context
      * @return
