@@ -1,31 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
     >
 
-    <TextView
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="我是sp单位的内容"
-        android:textSize="18sp"
+        android:text="跳转到测量界面"
         />
 
-    <TextView
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="我是dp单位的内容"
-        android:textSize="18dp"
+        android:text="跳转到普通截屏(含ScrollView截图)"
+        android:textAllCaps="false"
         />
 
-    <TextView
-        android:id="@+id/tv_test"
-        android:layout_width="60dp"
-        android:layout_height="20dp"
-        android:text="测量控件的宽高"
-        android:textSize="18dp"
+    <Button
+        android:id="@+id/btn_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转到ListView截屏"
+        android:textAllCaps="false"
         />
 
+    <Button
+        android:id="@+id/btn_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转到RecyclerView截屏"
+        android:textAllCaps="false"
+        />
 </LinearLayout>
