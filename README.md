@@ -20,3 +20,5 @@ CSDN中资料下载很多都需要会员或者积分,导致很多朋友都无法
 
 6.[Android序列化Serializable和Parcelable的理解和区别](http://blog.csdn.net/gaolh89/article/details/78876307)
 
+7.[FloatingActionButton基本使用及踩坑记录 ](https://blog.csdn.net/gaolh89/article/details/79759404)
+
