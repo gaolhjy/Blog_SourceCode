@@ -42,7 +42,7 @@ public class AddBorderFab extends FloatingActionButton {
         canvas = new Canvas();
         paint = new Paint();
         paint.setAntiAlias(true);
-        paint.setColor(Color.GREEN);
+        paint.setColor(Color.GRAY);
         paint.setStrokeWidth((float) 1.0);
         paint.setStyle(Paint.Style.STROKE);
     }
