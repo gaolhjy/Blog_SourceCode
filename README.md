@@ -22,3 +22,5 @@ CSDN中资料下载很多都需要会员或者积分,导致很多朋友都无法
 
 7.[FloatingActionButton基本使用及踩坑记录 ](https://blog.csdn.net/gaolh89/article/details/79759404)
 
+8.[Retrofit2基本使用 ](https://mp.csdn.net/mdeditor/80796792)
+
